@@ -1,0 +1,9 @@
+name: Why not Zoidberg?
+
+on: [push, pull_request]
+
+jobs:
+  log:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: colbyfayock/egghead-demo-github-action-futurama-zoidberg-quote@master
