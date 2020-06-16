@@ -7,3 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: colbyfayock/egghead-demo-github-action-futurama-zoidberg-quote@master
+        with:
+          character: bender
